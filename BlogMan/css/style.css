@@ -1,0 +1,23 @@
+body {
+  scroll-behavior: smooth;
+  background-color: rgb(64, 179, 162);
+}
+
+#main-header {
+  background-color: rgb(25, 155, 174);
+}
+#navbar {
+  background-color: rgb(4, 57, 107);
+}
+
+.modal-header {
+  background-color: rgb(25, 155, 174);
+}
+
+#modalbtn {
+  background-color: rgb(64, 179, 162);
+}
+
+.ok {
+  margin-top: 50px;
+}
