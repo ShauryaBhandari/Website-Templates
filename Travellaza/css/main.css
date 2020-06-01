@@ -1,0 +1,72 @@
+html {
+  scroll-behavior: smooth;
+}
+#outer-rectangle {
+  width: 40px;
+  height: 40px;
+  background: transparent;
+  margin: auto;
+  margin-top: 10px;
+  margin-right: 20px;
+  border-color: rgb(108, 110, 155);
+  border-width: 15px;
+  border-style: solid;
+}
+
+#slanted-rectangle {
+  width: 10px;
+  height: 30px;
+  background: rgb(108, 110, 155);
+  margin: auto;
+  margin-top: 10px;
+  transform: skewX(-35deg);
+}
+
+.brand-logo:visited,
+.brand-logo:link {
+  color: rgb(108, 110, 155);
+}
+
+.btn1 {
+  background-color: rgb(240, 238, 226);
+  color: rgb(108, 110, 155);
+  margin-top: 20px;
+}
+
+.searchsec {
+  background-color: rgb(108, 110, 155);
+}
+.section-search input {
+  padding: 5px !important;
+  font-size: 18px !important;
+  width: 90% !important;
+  border: rgb(1, 1, 1, 0.4) 3px solid !important ;
+}
+.autocomplete-content {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+}
+.secicons {
+  background-color: rgb(240, 238, 226);
+}
+
+#color1 {
+  color: rgb(108, 110, 155);
+}
+
+.fa-facebook,
+.fa-twitter,
+.fa-linkedin,
+.fa-google-plus,
+.fa-pinterest {
+  color: rgb(108, 110, 155) !important;
+  margin: 5px 10px;
+}
+.cardcolor {
+  background-color: rgb(108, 110, 155);
+  color: white;
+}
+.section-contact h5 {
+  margin-bottom: 30px;
+}
