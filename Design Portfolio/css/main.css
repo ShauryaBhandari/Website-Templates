@@ -1,0 +1,13 @@
+.main-header {
+  color: #fff;
+  background: url(../img/pattern.png);
+  height: 300px;
+  margin-bottom: 30px;
+}
+.main-header h1 {
+  margin: 0;
+  padding-top: 30px;
+}
+body {
+  background: rgb(0, 162, 162);
+}
