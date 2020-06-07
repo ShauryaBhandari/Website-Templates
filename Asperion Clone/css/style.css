@@ -1,0 +1,196 @@
+:root {
+  --red: #ad0000;
+  --lightBlack: #333;
+  --darkGrey: #a9a9a9;
+  --ghostWhite: #f8f8ff;
+  --lightGrey: #d3d3d3;
+}
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&family=Roboto+Condensed:wght@300&display=swap");
+
+html {
+  background: white;
+  font: 16px "Open Sans Condensed", "Roboto Condensed";
+  width: 100%;
+  height: 100%;
+}
+.navbar {
+  background: transparent;
+}
+h1 {
+  font-size: 2.25em;
+}
+h2 {
+  font-size: 2em;
+}
+h3 {
+  font-size: 1.75em;
+}
+h4 {
+  font-size: 1.5em;
+}
+p {
+  font-size: 1.25em;
+}
+a {
+  text-decoration: none;
+  transition: color 0.25s;
+}
+/* ssssss */
+.active1 {
+  background: var(--red);
+  color: white;
+}
+.a {
+  text-decoration: none;
+  transition: color 0.25s;
+}
+
+.largetxt {
+  font-size: 4.5rem;
+}
+nav h1 {
+  color: var(--red) !important;
+}
+.nav-item a {
+  display: block;
+  padding: 1.75em 0.5em;
+  font-size: 1em;
+  text-align: center;
+  text-transform: uppercase;
+  color: var(--lightBlack);
+}
+.nav-item a:hover,
+.nav-item a:focus {
+  color: var(--red) !important;
+  /* background-color: black; */
+}
+
+.nav-item:first-child a {
+  color: white !important;
+}
+
+/* Boxes section CSS */
+.section-box {
+  margin-top: 50px;
+}
+
+.box {
+  padding: 1.5em 1em;
+  width: 25%;
+  height: 400px;
+  border-top: 0.1em solid var(--lightGrey);
+  border-bottom: 0.1em solid var(--lightGrey);
+  border-left: 0.1em solid var(--lightGrey);
+  /* text-align: center; */
+  /* text-transform: uppercase; */
+}
+.box h1 {
+  font-size: 2rem;
+  text-align: center;
+  /* font-family: "Open Sans Condensed", "Roboto Condensed"; */
+}
+.box:last-child {
+  border-right: 0.1em solid var(--lightGrey);
+}
+
+.box:hover,
+.box:focus {
+  background: #f5f5f5;
+}
+.btn {
+  display: block;
+  padding: 0.75rem 1.25rem;
+  font-size: 1rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  background: var(--red);
+  color: white;
+  margin-top: 50px;
+  z-index: 2;
+}
+.btn:focus,
+.btn:hover {
+  background: var(--darkGrey);
+}
+
+article {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  text-align: justify;
+  text-transform: capitalize;
+}
+
+hr {
+  border: 3px dashed;
+  color: var(--lightGrey);
+}
+.hr1 {
+  border: 2px solid;
+  color: var(--red);
+  width: 40px;
+}
+
+.section-events h1 {
+  /* font-size: 1.5rem; */
+  text-transform: uppercase;
+}
+.section-events article {
+  float: left;
+  padding: 0 0.25em;
+  /* width: 25%; */
+  text-align: justify;
+  font-size: 0.75rem !important;
+}
+.section-events article a {
+  float: right;
+  padding-right: 1em;
+  color: var(--red);
+}
+.section-prev h3 {
+  /* text-transform: uppercase; */
+  font-weight: bold;
+}
+.section-prev p {
+  font-size: 1rem !important;
+}
+.section-prev article a {
+  float: right;
+  padding-right: 1em;
+  color: var(--red);
+}
+.logo-container img {
+  float: left;
+  height: 100px;
+  width: 100px;
+  margin-right: 40px;
+  margin-left: 40px;
+}
+
+footer {
+  padding: 2em 0;
+  width: 100%;
+  text-align: center;
+  margin-top: 50px;
+  background: var(--lightGrey);
+}
+footer .nav-ul {
+  justify-content: center;
+  margin-bottom: 1em;
+  list-style: none;
+  display: flex;
+}
+footer li:not(:first-child) {
+  margin-left: 0.75em;
+}
+footer li:first-child a {
+  color: var(--lightBlack);
+}
+footer a {
+  font-size: 1.25em;
+  font-weight: bold;
+  color: var(--darkGrey);
+}
+footer a:hover {
+  color: var(--red);
+  text-decoration: none;
+}
