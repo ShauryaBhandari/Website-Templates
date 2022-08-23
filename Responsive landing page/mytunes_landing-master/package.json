@@ -10,6 +10,6 @@
   "author": "Brad Traversy",
   "license": "MIT",
   "dependencies": {
-    "gh-pages": "^1.2.0"
+    "gh-pages": "^4.0.0"
   }
 }
